@@ -1,7 +1,9 @@
 using disk_free_space_loger;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
-var builder = Host.CreateApplicationBuilder(args);
+
+HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
 builder.Services.AddHostedService<Worker>();
-
-var host = builder.Build();
+IHost host = builder.Build();
 host.Run();

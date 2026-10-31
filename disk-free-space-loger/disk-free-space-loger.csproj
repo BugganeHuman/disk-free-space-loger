@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-disk_free_space_loger-5df1f8c0-880b-427e-8795-45cedae91129</UserSecretsId>
     <RootNamespace>disk_free_space_loger</RootNamespace>
+	<OutputType>WinExe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
